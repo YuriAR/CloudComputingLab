@@ -1,6 +1,4 @@
 word = input("Word to be evalueted: \n")
-print (word)
-print (word[::-1])
 
 if (word == word[::-1]):
   print ("TRUE")
