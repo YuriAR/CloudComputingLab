@@ -1,0 +1,7 @@
+word = input("Word to be evaluated: \n")
+
+if (word == word[::-1]):
+  print ("TRUE")
+else:
+  print ("FALSE")
+
